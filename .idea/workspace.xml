@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="webappsmash:war" />
-    </artifacts-to-build>
-  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -26,15 +21,28 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851bc122-78d7-4018-ad63-288f4105e182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sample/src/main/java/com/microsoft/azure/elasticdb/samples/elasticscalestarterkit/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/src/main/java/com/microsoft/azure/elasticdb/samples/elasticscalestarterkit/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sample/src/main/resources/resources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/src/main/resources/resources.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="d2b7c470-1103-421b-b44a-6bacea9974e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/azure-webapp/your-app-name/webapp-smash.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-smash.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-smash.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-smash/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-smash/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-smash/index.jsp" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,37 +51,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-704925463">
+    <session id="316105853">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="1" />
-          <entry key="jsp" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="Jenkinsfile" value="1" />
+          <entry key="config" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JSP" value="1" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="jsp" value="34" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSP" value="34" />
-          <entry key="XML" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -83,18 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
+            <state relative-caret-position="-837" />
           </provider>
         </entry>
       </file>
@@ -104,10 +88,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codealike.json">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -120,8 +113,8 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../UnifiedCharging-Platform-platform_vapc/batch" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../cross-ride-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../UnifiedCharging-Platform-platform_vapc/batch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../cross-ride-java" value="PREVIEW" />
         <entry key="$USER_HOME$/sample-tc-test" value="PREVIEW" />
       </map>
     </option>
@@ -129,8 +122,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/main/resources/web.config" />
       </list>
     </option>
   </component>
@@ -139,24 +132,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="webapp-smash Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -169,36 +144,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="webappsmash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webappsmash" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webappsmash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webappsmash" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webappsmash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webappsmash" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webappsmash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webappsmash" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webappsmash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webappsmash" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp-smash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="azure-sample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -232,98 +214,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Azure Web App: webappsmash:webappsmash" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
-      <option name="OS" value="windows" />
-      <option name="appServicePlanId" value="" />
-      <option name="appServicePlanName" value="" />
-      <option name="creatingAppServicePlan" value="true" />
-      <option name="creatingNew" value="false" />
-      <option name="creatingResGrp" value="true" />
-      <option name="deployToRoot" value="true" />
-      <option name="deployToSlot" value="false" />
-      <option name="jdkVersion">
-        <JavaVersion />
-      </option>
-      <option name="newSlotConfigurationSource" />
-      <option name="newSlotName" />
-      <option name="pricing" value="Basic_B1" />
-      <option name="region" value="australiacentral" />
-      <option name="resourceGroup" value="" />
-      <option name="slotName" />
-      <option name="stack" value="TOMCAT" />
-      <option name="subscriptionId" value="36f0efc2-e3bf-44c7-8b57-9ebcd1d6c0e7" />
-      <option name="targetName" value="webapp-smash.war" />
-      <option name="targetPath" value="$PROJECT_DIR$/target/webapp-smash.war" />
-      <option name="version" value="8.5-jre8" />
-      <option name="webAppId" value="/subscriptions/36f0efc2-e3bf-44c7-8b57-9ebcd1d6c0e7/resourceGroups/your-resource-group/providers/Microsoft.Web/sites/your-app-name" />
-      <option name="webAppName" value="" />
-      <option name="webContainer" value="tomcat 8.5" />
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="webappsmash:war" />
-        </option>
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="851bc122-78d7-4018-ad63-288f4105e182" name="Default Changelist" comment="" />
-      <created>1544724149480</created>
+      <changelist id="d2b7c470-1103-421b-b44a-6bacea9974e0" name="Default Changelist" comment="" />
+      <created>1544733015393</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544724149480</updated>
-      <workItem from="1544724155645" duration="2425000" />
+      <updated>1544733015393</updated>
+      <workItem from="1544733018645" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2425000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1246000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info id="Azure Explorer" weight="0.3297568" />
+      <window_info id="Azure Explorer" />
       <window_info id="Web" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.49159664" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="HDInsight Spark Submission" weight="0.32913166" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="bottom" id="Messages" weight="0.32913166" />
-      <window_info anchor="bottom" id="Azure Activity Log" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32959327" />
+      <window_info anchor="bottom" id="HDInsight Spark Submission" />
+      <window_info anchor="bottom" id="TeamCity" weight="0.32959327" />
+      <window_info anchor="bottom" id="Azure Activity Log" weight="0.32959327" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -337,27 +275,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codealike.json">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
+        <state relative-caret-position="-837" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -367,7 +303,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>webappsmash:war</last-edited>
+          <last-edited>webapp-smash:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -415,7 +351,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webappsmash</last-edited>
+          <last-edited>webapp-smash</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
