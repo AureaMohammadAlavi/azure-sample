@@ -7,6 +7,7 @@
 Server Time  is <br />
 <hr/>
 <%=new Date().toString()%>
+
 <hr/>
 </body>
 </html>
