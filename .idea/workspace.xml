@@ -32,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/../sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sample/src/main/java/com/microsoft/azure/elasticdb/samples/elasticscalestarterkit/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/src/main/java/com/microsoft/azure/elasticdb/samples/elasticscalestarterkit/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sample/src/main/resources/resources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sample/src/main/resources/resources.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,13 +66,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="jsp" value="16" />
+          <entry key="jsp" value="34" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSP" value="16" />
+          <entry key="JSP" value="34" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -91,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -114,7 +115,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -275,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544724149480</updated>
-      <workItem from="1544724155645" duration="1943000" />
+      <workItem from="1544724155645" duration="2425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1943000" />
+    <option name="totallyTimeSpent" value="2425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,6 +294,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
@@ -302,7 +304,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.7478992" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.49159664" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -354,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
