@@ -2,6 +2,11 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-Server Time  is <%=new Date().toString()%>
+<br />
+
+Server Time  is <br />
+<hr/>
+<%=new Date().toString()%>
+<hr/>
 </body>
 </html>
