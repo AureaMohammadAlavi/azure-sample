@@ -67,8 +67,8 @@
           <version>1.5.1</version>
           <configuration>
             <schemaVersion>v2</schemaVersion>
-            <resourceGroup>your-resource-group</resourceGroup>
-            <appName>your-app-name</appName>
+            <resourceGroup>web-resource-group</resourceGroup>
+            <appName>smash-app-name</appName>
             <region>westus</region>
             <pricingTier>P1V2</pricingTier>
             <runtime>
