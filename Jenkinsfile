@@ -1,18 +1,18 @@
 node {
-   stage('init') {
-      checkout scm
-   }
-   stage('build') {
-      sh '''
-         mvn clean package
-         cd target
-         cp ../src/main/resources/web.config web.config
-         cp webapp-smash.war app.jar
-         zip todo.zip app.jar web.config
-      '''
-   }
-   stage('deploy') {
-      azureWebAppPublish azureCredentialsId: env.AZURE_CRED_ID,
-      resourceGroup: env.RES_GROUP, appName: env.WEB_APP, filePath: "**/todo.zip"
-   }
+  stage('init') {
+    checkout scm
+  }
+
+  stage('build') {
+    sh 'mvn clean package'
+  }
+
+  stage('deploy') {
+    def resourceGroup = env.RES_GROUP
+    def webAppName = env.WEB_APP
+    sh 'mv target/*.war target/ROOT.war'
+    azureWebAppPublish azureCredentialsId: env.AZURE_CRED_ID, publishType: 'file',
+                       resourceGroup: env.RES_GROUP, appName: env.WEB_APP,
+                       filePath: '*.war', sourceDirectory: 'target', targetDirectory: 'webapps'
+  }
 }
