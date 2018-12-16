@@ -1,6 +1,6 @@
 <%@ page import="java.util.Date" %>
 <html>
-<body bgcolor="#007f50">
+<body bgcolor="#cd5c5c">
 <h2>Hello World!</h2>
 <br />
 
